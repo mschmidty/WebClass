@@ -1,0 +1,13 @@
+h1 {
+  background:black;
+  color:white;
+}
+
+.trex {
+  width:80%;
+  background:orange;
+}
+.wine {
+  width:500px;
+  background:#ccc;
+}
