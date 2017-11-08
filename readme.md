@@ -30,10 +30,11 @@ It should look something like this.
 
 Try on your own based on googling and what we did last week to:
 * add the DOCTYPE
-* make a head with a <meta charset="utf-8">, a <title>, and a <link> to your stylesheet which is in the css file.
-* <body>
+* <html> then nest:
+  * make a <head> with a <meta charset="utf-8">, a <title>, and a <link> to your stylesheet which is in the css file.
+  * <body>
 
-Here is what the final should look like. 
+Here is what the final should look like.
 
 ```html
 <!DOCTYPE html>
@@ -43,7 +44,7 @@ Here is what the final should look like.
 
   <meta charset="utf-8">
   <title>My test page</title>
-  <link rel="stylesheet" type="text/css" href="styles/styles.css">
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
 
 </head>
 
