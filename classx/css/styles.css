@@ -1,0 +1,28 @@
+/* ----------------------------
+------------Header ------------
+-------------------------------*/
+header {
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+}
+header h1 {
+  font-size:50px;
+  color:#518c59;
+  background:#ccc;
+}
+
+.main-nav {
+  background:#333;
+  color:#FFFFFF;
+  padding:10px;
+}
+.main-nav ul {
+  list-style-type:none;
+}
+.main-nav li {
+  display:inline-block;
+}
+.main-nav a {
+  text-decoration:none;
+}

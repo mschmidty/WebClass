@@ -1,10 +1,17 @@
 @import url('https://fonts.googleapis.com/css?family=Rubik');
 
+/* -------------------
+-------0. Text---------
+-------------------------*/
+
 body {
   font-family:'Rubik';
 }
 
 
+p {
+  line-height:1.6;
+}
 
 
 /* -------------------
@@ -76,4 +83,72 @@ header h1 a:active {
 
 .first-section .column:last-of-type {
   margin:0;
+}
+
+@media(max-width:600px){
+  .first-section .grid {
+    display:block;
+  }
+  .first-section .column {
+    margin:0 0 10px 0;
+  }
+}
+
+/* -------3.2 .second-section---------*/
+.second-section {
+  background:#E6E4E4;
+}
+
+.outer-box {
+  display:flex;
+  padding:35px 10px;
+}
+
+.inner-box2, .inner-box1 {
+  background:white;
+  padding:10px;
+}
+
+.inner-box1 {
+  width:66.66%;
+  margin-right:10px;
+}
+.inner-box1 h1 {
+  text-align:center;
+}
+
+.inner-box2 {
+  width:33.33%;
+}
+.card {
+  background:#FFB893;
+  padding:10px;
+  border-radius: 15px;
+  box-shadow:0 3px 3px rgba(0,0,0,0.5);
+  clear:both;
+}
+.card:after {
+   content: ".";
+   visibility: hidden;
+   display: block;
+   height: 0;
+   clear: both;
+}
+.card:first-of-type {
+  margin:0 0 10px 0;
+}
+.button {
+  background: #029FF9;
+  text-decoration:none;
+  color:black;
+  padding:10px;
+  display:block;
+  float:left;
+  border-radius: 5px;
+  box-shadow:0 10px 10px rgba(0,0,0,0.5);
+  transition:all 0.3s ease;
+}
+.button:active {
+  box-shadow:none;
+  top:1px;
 }
