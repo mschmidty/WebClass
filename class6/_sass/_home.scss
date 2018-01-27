@@ -1,0 +1,30 @@
+.banner {
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+
+  .logo {
+    background:$red;
+    height:75px;
+    width:75px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    border-radius:50%;
+  }
+}
+
+.background-image {
+  height:400px;
+  width:100%;
+
+}
+.image1 {
+  background: url("images/grass.jpg") no-repeat center center fixed;
+  background-size:cover;
+}
+.image2 {
+  background: url("images/bird.jpg") no-repeat center top fixed;
+  background-size:cover;
+}

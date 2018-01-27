@@ -1,0 +1,19 @@
+.main-header {
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  max-width:100%;
+  h1 {
+    margin:10px 0;
+  }
+  ul {
+    list-style-type:none;
+  }
+  li {
+    display:inline-block;
+    a {
+      text-decoration:none;
+      padding:10px;
+    }
+  }
+}
