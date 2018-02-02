@@ -21,10 +21,41 @@
 
 }
 .image1 {
-  background: url("images/grass.jpg") no-repeat center center fixed;
+  background: url("/images/grass.jpg") no-repeat center center fixed;
   background-size:cover;
 }
 .image2 {
-  background: url("images/bird.jpg") no-repeat center top fixed;
+  background: url("/images/bird.jpg") no-repeat center top fixed;
   background-size:cover;
+}
+
+
+/* Flexbox grid */
+.flex-parent {
+  display:flex;
+  flex-direction:row;
+  flex-wrap:wrap;
+  position:relative;
+  padding:15px 0 35px 0;
+  .flex-child {
+    margin:2.5%;
+    width:45%;
+    height:auto;
+    @media(max-width:800px) {
+      width:100%;
+      margin:15px 15px;
+      border-bottom:2px solid $black;
+      &:last-of-type{
+        border-bottom:none;
+      }
+
+    }
+    img {
+      display:block;
+      width:25%;
+      min-width:75px;
+      height:auto;
+      margin:0 auto;
+    }
+  }
 }

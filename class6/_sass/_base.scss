@@ -14,6 +14,25 @@ body {
 }
 
 
+/* Button for the entire website */
+.button {
+  text-align:center;
+  a {
+    background:$blue;
+    padding:15px 20px;
+    margin:15px;
+    display:inline-block;
+    text-decoration:none;
+    color:$white;
+    border-radius:4px;
+    border-bottom:2px solid $d-blue;
+  }
+  a:hover {
+    box-shadow:2px 2px 4px rgba(0,0,0,0.5);
+  }
+}
+
+
 
 /*! normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */
 
